@@ -1,0 +1,366 @@
+{
+  "generated_by": "hand-authored",
+  "note": "Target products to match against listings.json. URLs follow each retailer’s real product-page format. expected_match_ids lists listings planted as strong matches (same brand, subcategory, colour and material, messy title); expected_near_match_ids lists deliberate near-misses that drift on colour. Both are rewritten by generate-seed.js.",
+  "targets": [
+    {
+      "id": "tgt-001",
+      "brand": "Zara",
+      "name": "Manteau en laine mélangée à double boutonnage",
+      "name_en": "Double Breasted Wool Blend Coat",
+      "product_code": "2753/238/700",
+      "product_url": "https://www.zara.com/fr/fr/manteau-en-laine-melangee-a-double-boutonnage-p02753238.html",
+      "image_url": "https://picsum.photos/seed/tgt-001/900/1200",
+      "category": "Women's Outerwear",
+      "subcategory": "Wool Coat",
+      "colour": "Camel",
+      "material": "Wool Blend",
+      "retail_price_eur": 129,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "season": "AW24",
+      "keywords": [
+        "manteau",
+        "laine",
+        "double boutonnage",
+        "camel",
+        "coat",
+        "wool"
+      ],
+      "expected_match_ids": [
+        "ls-0019",
+        "ls-0134"
+      ],
+      "expected_near_match_ids": [
+        "ls-0141"
+      ]
+    },
+    {
+      "id": "tgt-002",
+      "brand": "Zara",
+      "name": "Veste effet cuir à col montant",
+      "name_en": "Faux Leather Biker Jacket",
+      "product_code": "8073/616/800",
+      "product_url": "https://www.zara.com/fr/fr/veste-effet-cuir-a-col-montant-p08073616.html",
+      "image_url": "https://picsum.photos/seed/tgt-002/900/1200",
+      "category": "Women's Outerwear",
+      "subcategory": "Biker Jacket",
+      "colour": "Black",
+      "material": "Faux Leather",
+      "retail_price_eur": 69.95,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "season": "AW24",
+      "keywords": [
+        "veste",
+        "cuir",
+        "perfecto",
+        "biker",
+        "noir",
+        "faux leather"
+      ],
+      "expected_match_ids": [
+        "ls-0084",
+        "ls-0150"
+      ],
+      "expected_near_match_ids": [
+        "ls-0182"
+      ]
+    },
+    {
+      "id": "tgt-003",
+      "brand": "Zara",
+      "name": "Pull en maille torsadée",
+      "name_en": "Cable Knit Jumper",
+      "product_code": "0761/420/712",
+      "product_url": "https://www.zara.com/fr/fr/pull-en-maille-torsadee-p00761420.html",
+      "image_url": "https://picsum.photos/seed/tgt-003/900/1200",
+      "category": "Men's Knitwear",
+      "subcategory": "Cable Knit Jumper",
+      "colour": "Ecru",
+      "material": "Wool Blend",
+      "retail_price_eur": 45.95,
+      "sizes_available": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "season": "AW24",
+      "keywords": [
+        "pull",
+        "maille torsadee",
+        "cable knit",
+        "ecru",
+        "jumper"
+      ],
+      "expected_match_ids": [
+        "ls-0023",
+        "ls-0168"
+      ],
+      "expected_near_match_ids": [
+        "ls-0047"
+      ]
+    },
+    {
+      "id": "tgt-004",
+      "brand": "Zara",
+      "name": "Doudoune matelassée à capuche",
+      "name_en": "Hooded Quilted Puffer Jacket",
+      "product_code": "6985/300/401",
+      "product_url": "https://www.zara.com/fr/fr/doudoune-matelassee-a-capuche-p06985300.html",
+      "image_url": "https://picsum.photos/seed/tgt-004/900/1200",
+      "category": "Men's Outerwear",
+      "subcategory": "Puffer Jacket",
+      "colour": "Navy",
+      "material": "Recycled Polyester",
+      "retail_price_eur": 79.95,
+      "sizes_available": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "season": "AW24",
+      "keywords": [
+        "doudoune",
+        "puffer",
+        "matelassee",
+        "capuche",
+        "navy",
+        "marine"
+      ],
+      "expected_match_ids": [
+        "ls-0044",
+        "ls-0095"
+      ],
+      "expected_near_match_ids": [
+        "ls-0188"
+      ]
+    },
+    {
+      "id": "tgt-005",
+      "brand": "H&M",
+      "name": "Cardigan en maille torsadée",
+      "name_en": "Cable Knit Cardigan",
+      "product_code": "1227946001",
+      "product_url": "https://www2.hm.com/fr_fr/productpage.1227946001.html",
+      "image_url": "https://picsum.photos/seed/tgt-005/900/1200",
+      "category": "Women's Knitwear",
+      "subcategory": "Cardigan",
+      "colour": "Cream",
+      "material": "Wool Blend",
+      "retail_price_eur": 39.99,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "season": "AW24",
+      "keywords": [
+        "cardigan",
+        "gilet",
+        "maille",
+        "cable knit",
+        "cream",
+        "creme"
+      ],
+      "expected_match_ids": [
+        "ls-0186",
+        "ls-0071"
+      ],
+      "expected_near_match_ids": [
+        "ls-0083"
+      ]
+    },
+    {
+      "id": "tgt-006",
+      "brand": "H&M",
+      "name": "Parka doublée à capuche",
+      "name_en": "Lined Hooded Parka",
+      "product_code": "1198327003",
+      "product_url": "https://www2.hm.com/fr_fr/productpage.1198327003.html",
+      "image_url": "https://picsum.photos/seed/tgt-006/900/1200",
+      "category": "Men's Outerwear",
+      "subcategory": "Parka",
+      "colour": "Khaki",
+      "material": "Polyester",
+      "retail_price_eur": 89.99,
+      "sizes_available": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "season": "AW24",
+      "keywords": [
+        "parka",
+        "capuche",
+        "doublee",
+        "kaki",
+        "khaki",
+        "hooded"
+      ],
+      "expected_match_ids": [
+        "ls-0146",
+        "ls-0097"
+      ],
+      "expected_near_match_ids": []
+    },
+    {
+      "id": "tgt-007",
+      "brand": "H&M",
+      "name": "Doudoune courte matelassée",
+      "name_en": "Short Quilted Puffer Jacket",
+      "product_code": "1245011002",
+      "product_url": "https://www2.hm.com/fr_fr/productpage.1245011002.html",
+      "image_url": "https://picsum.photos/seed/tgt-007/900/1200",
+      "category": "Women's Outerwear",
+      "subcategory": "Puffer Jacket",
+      "colour": "Black",
+      "material": "Recycled Polyester",
+      "retail_price_eur": 59.99,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "season": "AW24",
+      "keywords": [
+        "doudoune",
+        "puffer",
+        "courte",
+        "noir",
+        "black",
+        "quilted"
+      ],
+      "expected_match_ids": [
+        "ls-0089",
+        "ls-0125"
+      ],
+      "expected_near_match_ids": []
+    },
+    {
+      "id": "tgt-008",
+      "brand": "Mango",
+      "name": "Manteau 100% laine col châle",
+      "name_en": "Shawl Collar Wool Coat",
+      "product_code": "67095903",
+      "product_url": "https://shop.mango.com/fr/femme/manteaux-manteaux/manteau-100-laine-col-chale_67095903.html",
+      "image_url": "https://picsum.photos/seed/tgt-008/900/1200",
+      "category": "Women's Outerwear",
+      "subcategory": "Wool Coat",
+      "colour": "Chocolate Brown",
+      "material": "Wool",
+      "retail_price_eur": 159,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "season": "AW24",
+      "keywords": [
+        "manteau",
+        "laine",
+        "col chale",
+        "marron",
+        "brown",
+        "wool coat"
+      ],
+      "expected_match_ids": [
+        "ls-0063",
+        "ls-0034"
+      ],
+      "expected_near_match_ids": [
+        "ls-0049"
+      ]
+    },
+    {
+      "id": "tgt-009",
+      "brand": "Mango",
+      "name": "Pull col roulé en laine mérinos",
+      "name_en": "Merino Wool Roll Neck Jumper",
+      "product_code": "57015915",
+      "product_url": "https://shop.mango.com/fr/femme/pulls-et-cardigans-pulls/pull-col-roule-en-laine-merinos_57015915.html",
+      "image_url": "https://picsum.photos/seed/tgt-009/900/1200",
+      "category": "Women's Knitwear",
+      "subcategory": "Turtleneck",
+      "colour": "Off White",
+      "material": "Merino Wool",
+      "retail_price_eur": 49.99,
+      "sizes_available": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "season": "AW24",
+      "keywords": [
+        "pull",
+        "col roule",
+        "turtleneck",
+        "merinos",
+        "merino",
+        "blanc casse"
+      ],
+      "expected_match_ids": [
+        "ls-0218",
+        "ls-0203"
+      ],
+      "expected_near_match_ids": []
+    },
+    {
+      "id": "tgt-010",
+      "brand": "Mango",
+      "name": "Manteau en laine coupe slim",
+      "name_en": "Slim Fit Wool Overcoat",
+      "product_code": "47040472",
+      "product_url": "https://shop.mango.com/fr/homme/manteaux-manteaux/manteau-en-laine-coupe-slim_47040472.html",
+      "image_url": "https://picsum.photos/seed/tgt-010/900/1200",
+      "category": "Men's Outerwear",
+      "subcategory": "Wool Overcoat",
+      "colour": "Navy",
+      "material": "Wool Blend",
+      "retail_price_eur": 149,
+      "sizes_available": [
+        "46",
+        "48",
+        "50",
+        "52",
+        "54"
+      ],
+      "season": "AW24",
+      "keywords": [
+        "manteau",
+        "laine",
+        "slim",
+        "overcoat",
+        "marine",
+        "navy"
+      ],
+      "expected_match_ids": [
+        "ls-0033",
+        "ls-0115"
+      ],
+      "expected_near_match_ids": [
+        "ls-0114"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "resale-data",
+  "version": "1.0.0",
+  "description": "Seed + live second-hand fashion listing data (outerwear & knitwear) for product-match testing.",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "seed": "node generate-seed.js",
+    "fetch:ebay": "node fetch-ebay.js",
+    "build": "node generate-seed.js && node fetch-ebay.js && node build-index.js",
+    "index": "node build-index.js",
+    "test:match": "node test-match.js"
+  },
+  "keywords": [
+    "resale",
+    "secondhand",
+    "fashion",
+    "vinted",
+    "ebay-browse-api"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@huggingface/transformers": "^4.2.0"
+  }
+}
